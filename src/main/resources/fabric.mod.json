@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "tnlcmnmi",
+	"version": "${version}",
+	"name": "TNLCMNMI",
+	"description": "The New Leading Cause of Matthew's New Mental Insanity. Trolls Atredd__ slowly but surely :D",
+	"authors": [
+		"Oikmo"
+	],
+	"contact": {
+		"homepage": "http://afs.gurdit.com"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.oikmo.mod.Mod"
+		],
+		"fabric-datagen": [
+			"net.oikmo.mod.ModDataGenerator"
+		]
+	},
+	"mixins": [
+		"mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.25",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.86.1"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
